@@ -1,0 +1,67 @@
+# .gitignore for Java projects with standard best practices
+# Compiled class files
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# NetBeans
+nbproject/private/
+build/
+dist/
+
+# VS Code
+.vscode/
+
+# IntelliJ
+*.iml
+.idea/
+out/
+
+# Mac system files
+.DS_Store
+
+
+
+# Temporary files
+*.tmp
+*.swp
+*~
+
+# Generated sources
+**/generated-sources/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignore build artifacts
+# Keep a global rule to ignore generic packaged artifacts, but re-include
+# the project `jars/` and `lib/` folders so third-party libraries are
+# committed for user convenience.
+!jars/
+!jars/**
+
+!lib/
+!lib/**
