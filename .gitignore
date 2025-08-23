@@ -40,8 +40,6 @@ out/
 # Mac system files
 .DS_Store
 
-
-
 # Temporary files
 *.tmp
 *.swp
@@ -63,5 +61,6 @@ out/
 !jars/
 !jars/**
 
-!lib/
-!lib/**
+# Re-include recognition sources (these files are necessary for runtime)
+!src/recognition/
+!src/recognition/**
