@@ -10,7 +10,7 @@ import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.Statement;
 import net.proteanit.sql.DbUtils;
-
+ 
 
 /**
  *
@@ -25,10 +25,8 @@ public class view_subject extends javax.swing.JPanel {
         initComponents();
         SelectSubject();
        // GetCat();
-        
-           
-        
     }
+    
     Connection Con = null;
     Statement St = null;
     ResultSet Rs=null;
